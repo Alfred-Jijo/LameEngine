@@ -150,6 +150,7 @@
   <ItemGroup>
     <ClInclude Include="LameWindow.h" />
     <ClInclude Include="FirstApp.h" />
+    <ClInclude Include="typedef.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

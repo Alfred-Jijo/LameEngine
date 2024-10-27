@@ -1,5 +1,6 @@
 #pragma once
 #include "LameWindow.h"
+#include <cstdint>
 
 namespace LameEngine {
 

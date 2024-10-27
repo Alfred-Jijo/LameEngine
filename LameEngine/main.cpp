@@ -1,14 +1,9 @@
-#define GLFW_INCLUDE_VULKAN
-#include <GLFW/glfw3.h>
-
-#define GLM_FORCE_RADIANS
-#define GLM_FORCE_DEPTH_ZERO_TO_ONE
-#include <glm/vec4.hpp>
-#include <glm/mat4x4.hpp>
-
 #include <iostream>
 
 #include "FirstApp.h"
+#include <stdlib.h>
+#include <cstdint>
+#include <exception>
 
 int8_t main() {
     LameEngine::FirstApp app{};
@@ -17,7 +12,7 @@ int8_t main() {
         app.run();
     }
     catch (const std::exception& error) {
-        std::clog << error.what() << '\n';
+        std::cerr << error.what() << '\n';
         return EXIT_FAILURE;
     }
 

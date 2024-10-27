@@ -1,4 +1,7 @@
 #include "LameWindow.h"
+#include <cstdint>
+#include <string>
+#include <GLFW/glfw3.h>
 
 namespace LameEngine {
 
